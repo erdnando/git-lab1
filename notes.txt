@@ -1,4 +1,6 @@
----merge between two branches-----
+--ensure you are in develop branch or any you are working at
+
+---merge between two branches to main branch-----
 git checkout master
 git pull origin master
 git merge test
