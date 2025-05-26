@@ -6,6 +6,13 @@
     <title>Demo Git</title>
 </head>
 <body>
-    
+    <h1>Welcome to the Git Demo</h1>
+    <p>This is a simple HTML page to demonstrate Git functionality.</p>
+    <p>Feel free to clone this repository and make changes!</p>
+    <p>Current date: <span id="date"></span></p>
+
+    <script>
+        document.getElementById('date').textContent = new Date().toLocaleDateString();
+    </script> 
 </body>
 </html>
